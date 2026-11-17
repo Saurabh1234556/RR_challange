@@ -1,0 +1,11 @@
+metric	value
+comparison_scope	High-pressure chase balls versus the same batter's normal-pressure chase balls.
+high_pressure_exposure_population	625
+high_pressure_exposure_80th_percentile	53
+eligibility	At least 53 balls faced in both high- and normal-pressure states.
+eligible_batters	48
+scoring_delta	High-pressure runs per ball minus normal-pressure runs per ball.
+survival_delta	Normal-pressure dismissal rate minus high-pressure dismissal rate; positive is better.
+component_standardisation	Each delta is standardized within the eligible population, then equally weighted.
+reliability_adjustment	Raw score multiplied by high_balls / (high_balls + 108); 108 is the median high-pressure exposure of eligible batters.
+ranking_metric	Adjusted pressure score, descending.

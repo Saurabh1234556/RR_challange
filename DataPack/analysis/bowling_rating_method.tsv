@@ -1,0 +1,13 @@
+metric	value
+comparison_scope	High-pressure chase balls versus the same bowler's normal-pressure chase balls.
+high_pressure_exposure_population	415
+high_pressure_exposure_80th_percentile	84
+eligibility	At least 84 legal balls in both high- and normal-pressure states.
+eligible_bowlers	79
+runs_conceded	Batting runs plus bowler-attributed extras; byes, leg-byes and penalty runs excluded.
+wicket_credit	Run outs, retire outs and obstructing-the-field dismissals excluded.
+run_suppression_delta	Normal-pressure economy minus high-pressure economy.
+wicket_delta	High-pressure wicket rate minus normal-pressure wicket rate.
+component_standardisation	Each delta is standardized within the eligible population, then equally weighted.
+reliability_adjustment	Raw score multiplied by high_legal_balls / (high_legal_balls + 143); 143 is the median high-pressure exposure of eligible bowlers.
+ranking_metric	Adjusted pressure score, descending.

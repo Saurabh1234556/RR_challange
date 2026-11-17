@@ -1,0 +1,29 @@
+stage	file	format	location	status	description
+Stage 1 audit	data_audit_record.tsv	TSV	analysis	Created	Source inventory and quality findings
+Stage 2 base	clean_delivery_base.tsv	TSV	analysis	Created	200741 eligible delivery records with pre-ball context fields
+Stage 2 base	innings_summary.tsv	TSV	analysis	Created	1721 innings-level records
+Stage 3 pressure	batting_pressure_definition.tsv	TSV	analysis	Created	Data-derived batting pressure definition and thresholds
+Stage 3 pressure	batting_pressure_deliveries.tsv	TSV	analysis	Created	Delivery-level chase pressure labels
+Stage 3 pressure	batting_pressure_player_summary.tsv	TSV	analysis	Created	Player totals by pressure band
+Stage 4 batting	batting_pressure_rankings.tsv	TSV	analysis	Created	Global batting ranking calculation
+Stage 4 batting	batting_rating_method.tsv	TSV	analysis	Created	Batting rating rules and eligibility settings
+Stage 4 bowling	bowling_pressure_rankings.tsv	TSV	analysis	Created	Global bowling ranking calculation
+Stage 4 bowling	bowling_rating_method.tsv	TSV	analysis	Created	Bowling rating rules and eligibility settings
+Stage 5 context	batting_cricket_context_evidence.tsv	TSV	analysis	Created	High-pressure death-over and low-wicket batting evidence
+Stage 5 context	bowling_cricket_context_evidence.tsv	TSV	analysis	Created	High-pressure death-over, yorker and post-boundary bowling evidence
+Stage 5 context	cricket_context_feature_record.tsv	TSV	analysis	Created	Feature availability and inclusion decisions
+Stage 6 matchup	batting_matchup_evidence.tsv	TSV	analysis	Created	Pace-versus-spin controlled batting pressure evidence
+Stage 6 matchup	bowling_matchup_evidence.tsv	TSV	analysis	Created	Right-versus-left-hand batter controlled bowling evidence
+Stage 6 matchup	matchup_feature_validation.tsv	TSV	analysis	Created	Matchup sample-size and promotion rule record
+Stage 6 matchup	matchup_stability_comparison.tsv	TSV	analysis	Created	Leave-one-season-out comparison of core and matchup challenger models
+Code	build_pressure_base.py	Python	analysis	Created	Builds clean delivery and innings TSV tables
+Code	build_batting_pressure.py	Python	analysis	Created	Builds delivery-level batting pressure labels
+Code	build_batting_rankings.py	Python	analysis	Created	Builds baseline-adjusted batting rankings
+Code	build_bowling_rankings.py	Python	analysis	Created	Builds baseline-adjusted bowling rankings
+Code	build_cricket_context_checks.py	Python	analysis	Created	Builds cricket-context evidence tables
+Code	build_matchup_context_checks.py	Python	analysis	Created	Builds matchup-controlled evidence tables
+Code	build_submission_report.py	Python	analysis	Created	Builds the submission-ready Word report with embedded charts
+Final record	batting_final_ranking_with_evidence.tsv	TSV	analysis	Created	Ordered batting shortlist with robustness and format-evidence flags
+Final record	bowling_final_ranking_with_evidence.tsv	TSV	analysis	Created	Ordered bowling shortlist with robustness and format-evidence flags
+Final report	SupeRR_Selector_Round1_Methodology.md	Markdown	analysis	Created	Full reproducible project record
+Final report	SupeRR_Selector_Round1_Final_Report.docx	Word document	analysis	Created	Submission-ready report with tables and charts

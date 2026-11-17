@@ -1,0 +1,11 @@
+metric	value
+scope	Second-innings deliveries before the target is reached; abandoned matches excluded.
+eligible_chase_deliveries	95177
+required_run_rate_median	9.538
+required_run_rate_75th_percentile	11.891
+pressure_index	Mean of required-run-rate percentile, wickets-lost share, and elapsed-ball share.
+weighting	Equal weights after normalising components to 0-1; no subjective weight is assumed before validation.
+normal_band	Pressure index below 0.3705 (bottom 50% of eligible chase states).
+moderate_band	Pressure index from 0.3705 up to 0.5517 (50th-75th percentile).
+high_band	Pressure index at or above 0.5517 (top 25% of eligible chase states).
+ball_faced_rule	A wide is excluded from balls faced; other delivery types are retained.

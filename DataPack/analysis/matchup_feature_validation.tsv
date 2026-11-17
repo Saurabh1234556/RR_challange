@@ -1,0 +1,8 @@
+metric	value
+batting_control	Pace versus spin
+bowling_control	Right-handed versus left-handed batter
+minimum_per_context_exposure	12
+minimum_interpretation	At least two overs of high-pressure and two overs of normal-pressure exposure per matchup stratum.
+valid_batting_matchup_rows	230
+valid_bowling_matchup_rows	380
+ranking_status	Challenger evidence only. Do not replace the main ranking until leave-one-season-out stability is at least as strong.

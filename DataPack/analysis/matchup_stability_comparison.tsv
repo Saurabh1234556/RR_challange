@@ -1,0 +1,5 @@
+discipline	model	full_sample_candidates	mean_leave_one_season_out_top10_retention	decision
+Batting	Core pressure model	48	7.75	Retain as final ranking model
+Batting	Pace-spin matchup challenger	48	7.50	Do not promote to ranking weight; retain as supporting evidence
+Bowling	Core pressure model	79	7.50	Retain as final ranking model
+Bowling	Handedness matchup challenger	79	7.25	Do not promote to ranking weight; retain as supporting evidence

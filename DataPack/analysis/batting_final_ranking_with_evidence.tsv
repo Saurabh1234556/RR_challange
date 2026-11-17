@@ -1,0 +1,11 @@
+rank	batter	global_pressure_rank	format_evidence	threshold_models_top10	leave_one_season_out_top10	confidence_note
+1	Rinku Singh	1	IPL evidence	6/6	7/8	Strong global and robustness evidence
+2	Mark Chapman	2	T20I evidence	4/6	7/8	Strong season stability; moderate threshold sensitivity
+3	Naman Dhir	3	IPL evidence	6/6	6/8	Strong global and robustness evidence
+4	Matthew Wade	4	Below segment threshold	6/6	7/8	Strong global robustness; limited segment-level evidence at stricter thresholds
+5	Glenn Maxwell	5	T20I evidence	5/6	7/8	Strong global and robustness evidence
+6	Heinrich Klaasen	6	IPL and T20I evidence	6/6	5/8	Strong threshold stability and dual-format evidence
+7	Tristan Stubbs	7	IPL and T20I evidence	5/6	6/8	Strong dual-format and robustness evidence
+8	Towhid Hridoy	8	T20I evidence	5/6	7/8	Strong global and robustness evidence
+9	Namboori Tilak Varma	9	IPL and T20I evidence	2/6	6/8	Dual-format evidence; threshold-sensitive placement
+10	Dhruv Jurel	10	IPL evidence	3/6	4/8	Provisional final position; lower stability than ranks 1-8

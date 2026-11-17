@@ -1,0 +1,7 @@
+feature	availability	model_use	reason
+Death overs	Complete from overid	Supporting evidence	Time pressure already appears in the core pressure index; adding it again would double count.
+Wickets in hand	Complete from delivery sequence	Core pressure index and supporting evidence	Wickets lost is already a continuous pressure input; low-wicket splits show batting context.
+Yorkers	Explicit Yorker and Wide Yorker labels	Supporting bowling evidence	Used for high-pressure death-over execution, not a score weight, to avoid rewarding volume of attempts over outcomes.
+Post-boundary recovery	Derived from next legal ball in the same over	Supporting bowling evidence	Measures immediate response after a conceded four or six without claiming an unobserved psychological state.
+Batter handedness and bowling style	Available	Future context adjustment	Needs a minimum-sample match-up model before it can be used fairly in rankings.
+Pace or spin	Available	Future context adjustment	Useful for descriptive splits but not included until sample-adjusted validation is complete.
